@@ -1,0 +1,1 @@
+from driftmonitor.automation.automated_monitor import AutomatedDriftMonitor

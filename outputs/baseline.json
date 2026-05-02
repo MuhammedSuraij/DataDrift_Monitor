@@ -1,0 +1,104 @@
+{
+    "numeric": {
+        "mean": {
+            "age": 38.44358356663845,
+            "education_num": 10.130314473598542,
+            "hours_per_week": 40.94931310632202,
+            "capital_gain": 1106.0370792369295,
+            "capital_loss": 88.91021550882219
+        },
+        "std": {
+            "age": 13.11822741186613,
+            "education_num": 2.5624685586074567,
+            "hours_per_week": 11.98538203158998,
+            "capital_gain": 7497.863363876877,
+            "capital_loss": 405.6572029009256
+        },
+        "min": {
+            "age": 17,
+            "education_num": 1,
+            "hours_per_week": 1,
+            "capital_gain": 0,
+            "capital_loss": 0
+        },
+        "max": {
+            "age": 90,
+            "education_num": 16,
+            "hours_per_week": 99,
+            "capital_gain": 99999,
+            "capital_loss": 4356
+        }
+    },
+    "categorical": {
+        "workclass": {
+            "Private": 0.7388501855589557,
+            "Self-emp-not-inc": 0.08272022918158735,
+            "Local-gov": 0.06813594635067387,
+            "State-gov": 0.042255355166351975,
+            "Self-emp-inc": 0.036330490266293376,
+            "Federal-gov": 0.031252034637671726,
+            "Without-pay": 0.00045575883846604595
+        },
+        "marital_status": {
+            "Married-civ-spouse": 0.4667947131974738,
+            "Never-married": 0.32267725763396055,
+            "Divorced": 0.13861579529917312,
+            "Separated": 0.03121948043492415,
+            "Widowed": 0.02734553030796276,
+            "Married-spouse-absent": 0.012663584868806563,
+            "Married-AF-spouse": 0.000683638257699069
+        },
+        "occupation": {
+            "Prof-specialty": 0.1347743993749593,
+            "Craft-repair": 0.13343967706230875,
+            "Exec-managerial": 0.13236538837163878,
+            "Adm-clerical": 0.12272934435835667,
+            "Sales": 0.1188228400286477,
+            "Other-service": 0.10726609805325868,
+            "Machine-op-inspct": 0.06517351390064458,
+            "Transport-moving": 0.051989061787876815,
+            "Handlers-cleaners": 0.04459925776417736,
+            "Farming-fishing": 0.032358877531089264,
+            "Tech-support": 0.030210300149749333,
+            "Protective-serv": 0.021127677583175988,
+            "Priv-house-serv": 0.004850576209388632,
+            "Armed-Forces": 0.0002929878247281724
+        },
+        "relationship": {
+            "Husband": 0.4135685917051891,
+            "Not-in-family": 0.2560388046096751,
+            "Own-child": 0.14730776743277557,
+            "Unmarried": 0.10648479718731688,
+            "Wife": 0.046715280942769714,
+            "Other-relative": 0.029884758122273584
+        },
+        "sex": {
+            "Male": 0.6767367667165831,
+            "Female": 0.3232632332834169
+        }
+    },
+    "columns": [
+        "age",
+        "education_num",
+        "hours_per_week",
+        "capital_gain",
+        "capital_loss",
+        "workclass",
+        "marital_status",
+        "occupation",
+        "relationship",
+        "sex"
+    ],
+    "dtypes": {
+        "age": "int64",
+        "education_num": "int64",
+        "hours_per_week": "int64",
+        "capital_gain": "int64",
+        "capital_loss": "int64",
+        "workclass": "object",
+        "marital_status": "object",
+        "occupation": "object",
+        "relationship": "object",
+        "sex": "object"
+    }
+}
